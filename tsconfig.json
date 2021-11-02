@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "es5",
+    "lib": ["ESNext"],
+    "sourceMap": true,
+    "outDir": "build",
+    // "noImplicitReturns": true
+    "strictNullChecks": true
+  },
+  "include": [
+    "**/*"
+  ],  
+  "exclude": ["node_modules", "build"]
+}
